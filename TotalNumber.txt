@@ -1,0 +1,10 @@
+import java.util.*;
+import java.util.stream.*;
+public class TotalNumber {
+    public static void main(String args[]) {
+            List<Integer> myList = Arrays.asList(15,20,56,85,12,41,15,96,32,14);
+            long count =  myList.stream()
+                                .count();
+            System.out.println(count);                    
+    }
+}
